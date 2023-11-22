@@ -1,0 +1,18 @@
+// to reset for multiple users
+var usersList = new GlideRecord('sys_user');
+usersList.addEncodedQuery('active=true')
+usersList.setLimit(10);
+usersList.query();
+while (usersList.next()) {
+    // username to reset the password 
+    var userName = usersList.getDisplayValue('user_name');
+
+    // oob script to generate password based on password policy
+    var generatePassword = SNC.PasswordPolicyEvaluator.generateUserPassword(userName);
+
+    // oob script to set the password to the username
+    var setPassword = SNC.PasswordPolicyEvaluator.setUserPassword(userName, generatePassword);
+
+    // to view the generated password incase for any reference
+    gs.print('password for ' + userName + ' is - ' + generatePassword);
+}
