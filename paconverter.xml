@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2023-12-22 08:13:13">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Platform Analytics Board converter</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>1cad546f4787f510abc2d264336d433c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>cc9d650d47533150abc2d264336d437a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_decision_multi_result_0254290947533150abc2d264336d4327</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result"><sys_decision_multi_result action="INSERT_OR_UPDATE"><decision_table display_value="Platform Analytics Reporting Output">6fa365c547533150abc2d264336d4386</decision_table><label>json: d24d53f60350de7a652caf3188a46ed2, jsonobject: {     "configVersion": "23.0.0-ci-SNAPSHOT",     "scoreSize": "md",     "headingPosition": "top",     "sparklineStyle": "area",     "scoreIcon": "",     "iconStyle": "background",     "showScoreDate": false,     "useRelativeScoreTime": false,     "showScoreUpdateTime": false,     "showZero": true,     "colorConfig": {         "type": "default"     },     "newReporting": false,     "dataSources": [         {             "isDatabaseView": false,             "allowRealTime": true,             "label": "",             "sourceType": "table",             "tableOrViewName": "",             "filterQuery": "",             "preferredVisualizations": [                 "d24d53f60350de7a652caf3188a46ed2"             ],             "id": "dGFibGVpbmNpZGVudDE2ODE4NDA5NTY1Nzc=",             "dataCategories": [                 "trend",                 "group",                 "simple"             ]         }     ],     "showHeader": true,     "showTotalAggregate": false,     "showSubAggregate": false,     "showFirstGroupAggregate": false,     "showSecondGroupAggregate": false,     "hideMatrixAggregate": false,     "wrapTitle": false,     "showHeaderSeparator": false,     "showBorder": true,     "bareBorder": false,     "telemetry": "null",     "showDataPassthrough": false,     "dataPassthrough": null,     "metrics": [         {             "dataSource": "dGFibGVpbmNpZGVudDE2ODE4NDA5NTY1Nzc=",             "id": "ZEdGaWJHVnBibU5wWkdWdWRERTJPREU0TkRBNU5UWTFOemM9MTY4MTg0MDk1NzkxMA==",             "aggregateFunction": "COUNT",             "numberFormat": {                 "customFormat": false             },             "axisId": "primary"         }     ],     "groupBy": null,     "sortByOrder": "desc",     "trendBy": null,     "showChange": false,     "showChangePercentage": false,     "showTarget": false,     "showForecast": false,     "showForecastRange": false,     "showTrend": false,     "showConfidenceBand": false,     "showGapPercentage": false,     "showSparkline": false,     "showMetricLabel": false,     "showThreshold": false,     "showComment": false,     "followFilters": true,     "showFilterIcon": true,     "enableRealTimeUpdate": false,     "enableDrilldown": true,     "enableCustomEmptyState": false,     "emptyStateIllustration": "no-data",     "emptyStateHeading": "No data available.",     "emptyStateContent": "There are no scores available for the selected criteria. Contact your admin for more info.",     "emptyStateAlignment": "vertical-centered",     "showMaximumRange": false,     "applyDateRange": false,     "numberOfPeriods": 3,     "showAbsolutePeriod": false,     "scoreType": null,     "showChangeFrom": false,     "period": "M",     "dateFormat": "default",     "headerTitle": "" }</label><result_elements/><sys_class_name>sys_decision_multi_result</sys_class_name><sys_created_by>mura</sys_created_by><sys_created_on>2023-12-22 07:32:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0254290947533150abc2d264336d4327</sys_id><sys_mod_count>0</sys_mod_count><sys_name>json: d24d53f60350de7a652caf3188a46ed2, jsonobject: {     "configVersion": "23.0.0-ci-SNAPSHOT",     "scoreSize": "md",     "headingPosition": "top",     "sparklineStyle": "area",     "scoreIcon": "",     "iconStyle": "background",     "showScoreDate": fa</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_decision_multi_result_0254290947533150abc2d264336d4327</sys_update_name><sys_updated_by>mura</sys_updated_by><sys_updated_on>2023-12-22 07:32:55</sys_updated_on></sys_decision_multi_result><sys_variable_value action="delete_multiple" query="document_key=0254290947533150abc2d264336d4327"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>0254290947533150abc2d264336d4327</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>mura</sys_created_by><sys_created_on>2023-12-22 07:32:55</sys_created_on><sys_id>0a54290947533150abc2d264336d4327</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>mura</sys_updated_by><sys_updated_on>2023-12-22 07:32:55</sys_updated_on><value>{     "configVersion": "23.0.0-ci-SNAPSHOT",     "scoreSize": "md",     "headingPosition": "top",     "sparklineStyle": "area",     "scoreIcon": "",     "iconStyle": "background",     "showScoreDate": false,     "useRelativeScoreTime": false,     "showScoreUpdateTime": false,     "showZero": true,     "colorConfig": {         "type": "default"     },     "newReporting": false,     "dataSources": [         {             "isDatabaseView": false,             "allowRealTime": true,             "label": "",             "sourceType": "table",             "tableOrViewName": "",             "filterQuery": "",             "preferredVisualizations": [                 "d24d53f60350de7a652caf3188a46ed2"             ],             "id": "dGFibGVpbmNpZGVudDE2ODE4NDA5NTY1Nzc=",             "dataCategories": [                 "trend",                 "group",                 "simple"             ]         }     ],     "showHeader": true,     "showTotalAggregate": false,     "showSubAggregate": false,     "showFirstGroupAggregate": false,     "showSecondGroupAggregate": false,     "hideMatrixAggregate": false,     "wrapTitle": false,     "showHeaderSeparator": false,     "showBorder": true,     "bareBorder": false,     "telemetry": "null",     "showDataPassthrough": false,     "dataPassthrough": null,     "metrics": [         {             "dataSource": "dGFibGVpbmNpZGVudDE2ODE4NDA5NTY1Nzc=",             "id": "ZEdGaWJHVnBibU5wWkdWdWRERTJPREU0TkRBNU5UWTFOemM9MTY4MTg0MDk1NzkxMA==",             "aggregateFunction": "COUNT",             "numberFormat": {                 "customFormat": false             },             "axisId": "primary"         }     ],     "groupBy": null,     "sortByOrder": "desc",     "trendBy": null,     "showChange": false,     "showChangePercentage": false,     "showTarget": false,     "showForecast": false,     "showForecastRange": false,     "showTrend": false,     "showConfidenceBand": false,     "showGapPercentage": false,     "showSparkline": false,     "showMetricLabel": false,     "showThreshold": false,     "showComment": false,     "followFilters": true,     "showFilterIcon": true,     "enableRealTimeUpdate": false,     "enableDrilldown": true,     "enableCustomEmptyState": false,     "emptyStateIllustration": "no-data",     "emptyStateHeading": "No data available.",     "emptyStateContent": "There are no scores available for the selected criteria. Contact your admin for more info.",     "emptyStateAlignment": "vertical-centered",     "showMaximumRange": false,     "applyDateRange": false,     "numberOfPeriods": 3,     "showAbsolutePeriod": false,     "scoreType": null,     "showChangeFrom": false,     "period": "M",     "dateFormat": "default",     "headerTitle": "" }</value><variable display_value="jsonobject">7954e50947533150abc2d264336d43d7</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>0254290947533150abc2d264336d4327</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>mura</sys_created_by><sys_created_on>2023-12-22 07:32:55</sys_created_on><sys_id>4654290947533150abc2d264336d4327</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>mura</sys_updated_by><sys_updated_on>2023-12-22 07:32:55</sys_updated_on><value>d24d53f60350de7a652caf3188a46ed2</value><variable display_value="json">b554e50947533150abc2d264336d43c5</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>1587003650</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>009d650d47533150abc2d264336d437c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c907105fd0000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table/>
+<target_name>json: d24d53f60350de7a652caf3188a46ed2, jsonobject: {     "configVersion": "23.0.0-ci-SNAPSHOT",    </target_name>
+<type>Decision Table Multiple Result</type>
+<update_domain>global</update_domain>
+<update_guid>0a54290912533150a718c7cc4b4d0928</update_guid>
+<update_guid_history>0a54290912533150a718c7cc4b4d0928:1587003650</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_5ddd986f4787f510abc2d264336d4374</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments&gt;create platform analytics board from current dashboard. &lt;/comments&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Convert to Platform Analytics&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var newBoard = new parBoardConvertUtils().createPABoard(current);
+
+var url = '&lt;a href="/now/platform-analytics-workspace/dashboards/params/edit/false/sys-id/' + newBoard + '"&gt;' + 'click to view &lt;/a&gt;' ;
+
+gs.addInfoMessage('Platform Analytics board has been created, ' + url); 
+
+action.setRedirectURL((current.getLink(true)));
+]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mura&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-17 10:34:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5ddd986f4787f510abc2d264336d4374&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Convert to Platform Analytics&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_5ddd986f4787f510abc2d264336d4374&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mura&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-19 17:28:27&lt;/sys_updated_on&gt;&lt;table&gt;pa_dashboards&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-24502433</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>089da10947933150abc2d264336d43f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c831f2b350000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table>pa_dashboards</table>
+<target_name>Convert to Platform Analytics</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>d8ef04dce1d7f91001b891d57c529d25</update_guid>
+<update_guid_history>d8ef04dce1d7f91001b891d57c529d25:-24502433,02a83427fa4bf5103b62f3d7bb575dd0:448803075,5a087ce3c84bf510ffd650b1c28fc38a:900373879,1d8764abadc7f510f1e3008009d5bada:1755396067,225724ab77c7f510985cd7627b41bf34:-1723130305,b7c6206beec7f510a6d3febd0860f1ec:-1934855365,d475a46bafc7f510b39f3e7caba342de:-802950769,bee32c6737c7f51009d3d982798a9387:123406943,97832c67d0c7f51088d5767b3349f3dd:-1017641680,abed1c6f4487f51097c8a7f282dfa0e6:-2110806324</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_decision_question_1654290947533150abc2d264336d433d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question"><sys_decision_question action="INSERT_OR_UPDATE"><active>true</active><answer>4e54290947533150abc2d264336d4322</answer><condition/><decision_table display_value="Platform Analytics Reporting Output">6fa365c547533150abc2d264336d4386</decision_table><default_answer>true</default_answer><input_table>var__m_sys_decision_input_6fa365c547533150abc2d264336d4386</input_table><label>Platform Analytics Reporting Output default result</label><marked_for_deletion>false</marked_for_deletion><order>100</order><sys_class_name>sys_decision_question</sys_class_name><sys_created_by>mura</sys_created_by><sys_created_on>2023-12-22 07:32:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1654290947533150abc2d264336d433d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Platform Analytics Reporting Output default result</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_decision_question_1654290947533150abc2d264336d433d</sys_update_name><sys_updated_by>mura</sys_updated_by><sys_updated_on>2023-12-22 07:32:56</sys_updated_on></sys_decision_question></record_update>]]></payload>
+<payload_hash>-1829728202</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>0c9d650d47533150abc2d264336d437c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c90710c350000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table/>
+<target_name>Platform Analytics Reporting Output default result</target_name>
+<type>Decision</type>
+<update_domain>global</update_domain>
+<update_guid>d6542909b3533150412ce52213276140</update_guid>
+<update_guid_history>d6542909b3533150412ce52213276140:-1829728202</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_var__m_sys_decision_multi_result_element_6fa365c547533150abc2d264336d4386_u_json_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_json" label="json" language="en" table="var__m_sys_decision_multi_result_element_6fa365c547533150abc2d264336d4386"><sys_documentation action="INSERT_OR_UPDATE"><element>u_json</element><help/><hint/><label>json</label><language>en</language><name>var__m_sys_decision_multi_result_element_6fa365c547533150abc2d264336d4386</name><plural>json</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>mura</sys_created_by><sys_created_on>2023-12-22 07:32:54</sys_created_on><sys_id>f154e50947533150abc2d264336d43c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>json</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_var__m_sys_decision_multi_result_element_6fa365c547533150abc2d264336d4386_u_json_en</sys_update_name><sys_updated_by>mura</sys_updated_by><sys_updated_on>2023-12-22 07:32:54</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-486433254</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>0c9da10947933150abc2d264336d43f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c9071030a0000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table>var__m_sys_decision_multi_result_element_6fa365c547533150abc2d264336d4386</table>
+<target_name>null.json</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>f954e5097b533150d08aca50f8aadbd6</update_guid>
+<update_guid_history>f954e5097b533150d08aca50f8aadbd6:-486433254,bd54e509b0533150bf4c2a914769fdd2:-486433254</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_684e54af4787f510abc2d264336d4343</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.parBoardConvertUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Get the current dashboard and duplicates the current dashboard to the platform analytics board&amp;#13;
+		 * Currently only single score report widgets are supported for conversion&amp;#13;
+		 * other widgets in the dashboard are just ignored&lt;/description&gt;&lt;name&gt;parBoardConvertUtils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var parBoardConvertUtils = Class.create();
+parBoardConvertUtils.prototype = {
+	initialize: function () {
+
+	},
+
+	createPABoard: function (currDashboard) {
+		/** 
+		 * Get the current dashboard as parm
+		 * The function duplicates the current dashboard to platform analytics board
+		 * Currently only single score report widgets are supported for converstion
+		 * other widgets in the dashboard are just ignored
+		 */
+
+		var grPAD = new GlideRecord('par_dashboard');
+		grPAD.initialize();
+		grPAD.name = currDashboard.name;
+		var pAboard = grPAD.insert();
+		//Add PA experience
+		this.createVisibility(pAboard)
+		//add ownership
+		this.createOwnership(pAboard, currDashboard);
+		// create tabs 
+		this.createTabs(currDashboard, pAboard);
+
+		return pAboard;
+
+	},
+
+	createVisibility: function (pAboard) {
+		// plt dashbaord requires visibilty to be set so it is avaible in workspace
+		var grPDV = new GlideRecord('par_dashboard_visibility');
+		grPDV.initialize();
+		grPDV.setValue('dashboard', pAboard);
+		grPDV.setValue('experience', '08c73d60537101100834ddeeff7b1287'); // PA experience hardcoded sysid
+		grPDV.insert();
+	},
+
+	createOwnership: function (pAboard, currDashboard) {
+		// the currentdashboard owner is set as platform analytics board owner
+		var grPDUM = new GlideRecord('par_dashboard_user_metadata');
+		grPDUM.initialize();
+		grPDUM.setValue('created_on', new GlideDateTime());
+		grPDUM.setValue('last_updated_on', new GlideDateTime());
+		grPDUM.setValue('updated_by_user', gs.getUserID());
+		grPDUM.setValue('dashboard', pAboard);
+		grPDUM.setValue('created_by_user', currDashboard.owner);
+		grPDUM.insert();
+	},
+
+	createTabs: function (currDashboard, pAboard) {
+		// replicate the tabs from the current dashbaord
+		var grPM2DT = new GlideRecord('pa_m2m_dashboard_tabs');
+		grPM2DT.addEncodedQuery("dashboard=" + currDashboard.getUniqueValue());
+		grPM2DT.query();
+		while (grPM2DT.next()) {
+			var grPDT = new GlideRecord('par_dashboard_tab');
+			grPDT.initialize();
+			grPDT.dashboard = pAboard;
+			grPDT.name = grPM2DT.getDisplayValue('tab');
+			grPDT.order = grPM2DT.order;
+			var tab = grPDT.insert();
+
+			// create canvas data
+			this.createCanvas(tab, pAboard, grPM2DT);
+		}
+		this.createEmptyCanvas(pAboard); // create empty layout
+	},
+
+	createCanvas: function (tab, pAboard, currDashboardTab) {
+		var grPDC = new GlideRecord('par_dashboard_canvas');
+		grPDC.initialize();
+		grPDC.setValue('layout', '');
+		grPDC.setValue('dashboard_tab', tab);
+		grPDC.setValue('dashboard', pAboard);
+		var tabCanvas = grPDC.insert();
+		if (tabCanvas) {
+			this.checkReportsLinked(tab, tabCanvas, currDashboardTab);
+		}
+	},
+
+	createEmptyCanvas: function(pAboard){
+		var grPDCe = new GlideRecord('par_dashboard_canvas');
+		grPDCe.initialize();
+		grPDCe.setValue('layout', '[]');
+		grPDCe.setValue('dashboard', pAboard);
+		grPDCe.insert();
+	},
+
+	checkReportsLinked: function (tab, canvas, currDashboardTab) {
+		// query all the reports in the current board and check if they are single score
+		var sys_portal = new GlideRecord('sys_portal');
+		sys_portal.addQuery('page', currDashboardTab.tab.page);
+		sys_portal.query();
+		while (sys_portal.next()) {
+			var preference = new GlideRecord('sys_portal_preferences');
+			preference.addQuery('portal_section', sys_portal.sys_id);
+			preference.addQuery('name', 'sys_id');
+			preference.query();
+			while (preference.next()) {
+				var report_id = preference.value.toString();
+				this.checkReportTypeTriggerWidget(report_id, canvas);
+			}
+		}
+	},
+
+	checkReportTypeTriggerWidget: function (sysidOfReport, canvas) {
+		// calls the decision table and evaluates if the report is single score and then uses the template json as output and maps the layout for platform board created
+		var grSysReport = new GlideRecord('sys_report');
+		if (grSysReport.get(sysidOfReport)) {
+			var dt = new sn_dt.DecisionTableAPI();
+			var inputs = {};
+			inputs['u_type'] = grSysReport.type.toString(); // String 
+			try {
+				var response = dt.getDecision('6fa365c547533150abc2d264336d4386', inputs);
+				var jsoncomponent = JSON.parse(response.result_elements.u_jsonobject);
+				var list = [
+					jsoncomponent.dataSources[0].tableOrViewName = grSysReport.table.toString(),
+					jsoncomponent.dataSources[0].label = grSysReport.title.toString(),
+					jsoncomponent.headerTitle = grSysReport.title.toString(),
+					jsoncomponent.dataSources[0].filterQuery = grSysReport.filter.toString()
+				];
+				return this.createPARWidget(canvas, response.result_elements.u_json, JSON.stringify(jsoncomponent));
+			} catch (err) {
+				return false;
+			}
+		}
+	},
+
+	createPARWidget: function (canvas, component, jsoncomponent) {
+
+		var grPDW = new GlideRecord('par_dashboard_widget');
+		grPDW.initialize();
+		grPDW.setValue('canvas', canvas);
+		grPDW.setValue('component', component);
+		grPDW.setValue('component_props', jsoncomponent);
+		grPDW.setValue('w', '10');
+		grPDW.setValue('h', '10');
+		return grPDW.insert();
+	},
+
+	type: 'parBoardConvertUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mura&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-17 10:57:12&lt;/sys_created_on&gt;&lt;sys_id&gt;684e54af4787f510abc2d264336d4343&lt;/sys_id&gt;&lt;sys_mod_count&gt;26&lt;/sys_mod_count&gt;&lt;sys_name&gt;parBoardConvertUtils&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_684e54af4787f510abc2d264336d4343&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mura&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-22 08:12:54&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1206818764</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>449da10947933150abc2d264336d43f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c9095a2d50000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table/>
+<target_name>parBoardConvertUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>377d2dc5b49331506de4846777791f64</update_guid>
+<update_guid_history>377d2dc5b49331506de4846777791f64:1206818764,4705ad097e533150b51fdbc437c6aee7:1756314984,d7cbd890df5bf9100c05383b5627cd1e:863818174,f23b5050f85bf9107982634b203a3d13:-873338580,912a58d8181bf910374acbcbc272992a:775900941,d578d01c0a1bf9100b33b5f582daab41:-1762909340,a938545c8f1bf910f7fed26e04d2b8e8:-1854299405,3d28141c4e1bf910f66161538f07f35e:2011099379,0df7d05c521bf910330268ef33ffb9cc:284752427,acd7141c401bf9107a6be0ecbb59556d:220483873,27f610d4ff1bf9100c25bb117de91920:882558367,72d65cd4041bf91093e41ed0f4420411:1677083561,09b694d4d01bf910258cbc55ae7431ff:-456296423,75569858a71bf9108802afe7d32a95ff:1857412985,72d594d4fc1bf9109a2fe04264638870:1183493924,858594d44d1bf910cded714c0e774ef9:732518935,dee458d44c1bf9102f46bf14cbd70f42:-1655910725,6154d454141bf910baf0e8dd7fdbfc8b:-534341270,17241894d21bf910f325053aa906e6a6:-55551099,b0b3d094041bf91019d31cb8aec2d648:1140282994,48a3dc549c1bf9103b724cfcdf7ba471:-722669583,bf73d854a51bf910c7258d843fc2284f:1202053993,6013dc14f41bf910807314a67dee7412:-415252564,a8029010c81bf910aa86c9873bc1b10b:-1411172139,17219cdcc2d7f910015dcc9401c507df:1197804537,ed79fc27054bf510453efdf4a02e129a:-824738447,392360afb287f510eb17333847e483d3:-1706564036</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_decision_multi_result_element_b554e50947533150abc2d264336d43c5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_decision_multi_result_element"&gt;&lt;sys_decision_multi_result_element action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_json&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;string_full_utf8&lt;/internal_type&gt;&lt;label&gt;json&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="Platform Analytics Reporting Output"&gt;6fa365c547533150abc2d264336d4386&lt;/model&gt;&lt;model_id&gt;6fa365c547533150abc2d264336d4386&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sys_decision_multi_result_element_6fa365c547533150abc2d264336d4386&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;parent/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_decision_multi_result_element&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mura&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-22 07:32:54&lt;/sys_created_on&gt;&lt;sys_id&gt;b554e50947533150abc2d264336d43c5&lt;/sys_id&gt;&lt;sys_name&gt;json&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_decision_multi_result_element_b554e50947533150abc2d264336d43c5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mura&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-22 07:32:54&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_decision_multi_result_element&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-902058082</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>489d650d47533150abc2d264336d437c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c907102ef0000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table/>
+<target_name>json</target_name>
+<type>Result</type>
+<update_domain>global</update_domain>
+<update_guid>3d54e5093c53315082c047ce696bfed4</update_guid>
+<update_guid_history>3d54e5093c53315082c047ce696bfed4:-902058082,f154e509ae5331506e143b400063d8d1:-709276855,3554e509ce533150d86b50d44cb590cd:-902058082</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_var__m_sys_decision_multi_result_element_6fa365c547533150abc2d264336d4386_u_jsonobject_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_jsonobject" label="jsonobject" language="en" table="var__m_sys_decision_multi_result_element_6fa365c547533150abc2d264336d4386"><sys_documentation action="INSERT_OR_UPDATE"><element>u_jsonobject</element><help/><hint/><label>jsonobject</label><language>en</language><name>var__m_sys_decision_multi_result_element_6fa365c547533150abc2d264336d4386</name><plural>jsonobject</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>mura</sys_created_by><sys_created_on>2023-12-22 07:32:54</sys_created_on><sys_id>f954e50947533150abc2d264336d43da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>jsonobject</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_var__m_sys_decision_multi_result_element_6fa365c547533150abc2d264336d4386_u_jsonobject_en</sys_update_name><sys_updated_by>mura</sys_updated_by><sys_updated_on>2023-12-22 07:32:54</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1651287814</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>489da10947933150abc2d264336d43f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c907103ee0000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table>var__m_sys_decision_multi_result_element_6fa365c547533150abc2d264336d4386</table>
+<target_name>null.jsonobject</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>b954e5096253315089110358d5f4e9e7</update_guid>
+<update_guid_history>b954e5096253315089110358d5f4e9e7:-1651287814,fd54e5094d5331509bc22c515907c5e3:-1651287814</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_decision_input_2954250947533150abc2d264336d437e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_decision_input"&gt;&lt;sys_decision_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes&gt;element_mapping_provider=com.glide.decision_table.data.DecisionTableVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_type&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;type&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Platform Analytics Reporting Output"&gt;6fa365c547533150abc2d264336d4386&lt;/model&gt;&lt;model_id&gt;6fa365c547533150abc2d264336d4386&lt;/model_id&gt;&lt;model_table&gt;sys_decision&lt;/model_table&gt;&lt;name&gt;var__m_sys_decision_input_6fa365c547533150abc2d264336d4386&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;parent/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_decision_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mura&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-22 07:32:53&lt;/sys_created_on&gt;&lt;sys_id&gt;2954250947533150abc2d264336d437e&lt;/sys_id&gt;&lt;sys_name&gt;type&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_decision_input_2954250947533150abc2d264336d437e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mura&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-22 07:32:53&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_decision_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1113059763</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>4c9d650d47533150abc2d264336d437b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c907101fe0000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table/>
+<target_name>type</target_name>
+<type>Decision Input</type>
+<update_domain>global</update_domain>
+<update_guid>f554e5093c533150afff6679ba43b1c2</update_guid>
+<update_guid_history>f554e5093c533150afff6679ba43b1c2:1113059763,3554e509ad5331509b8519edfd7c93be:-578329140,a154e5098a533150605aaf0f2a1a09ba:1113059763</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_decision_table_decision_condition_b5542d8547533150abc2d264336d433b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition"><sn_decision_table_decision_condition action="INSERT_OR_UPDATE"><decision_input display_value="type">2954250947533150abc2d264336d437e</decision_input><decision_table display_value="Platform Analytics Reporting Output">6fa365c547533150abc2d264336d4386</decision_table><default_operator>LIKE</default_operator><description/><field/><field_label/><field_parent_table/><label>type</label><order>100</order><reference/><sys_class_name>sn_decision_table_decision_condition</sys_class_name><sys_created_by>mura</sys_created_by><sys_created_on>2023-12-22 07:32:55</sys_created_on><sys_domain>global</sys_domain><sys_id>b5542d8547533150abc2d264336d433b</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sn_decision_table_decision_condition_b5542d8547533150abc2d264336d433b</sys_update_name><sys_updated_by>mura</sys_updated_by><sys_updated_on>2023-12-22 07:32:55</sys_updated_on><type display_value="String">747127c1bf3320001875647fcf0739e0</type></sn_decision_table_decision_condition></record_update>]]></payload>
+<payload_hash>1436035187</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>809d650d47533150abc2d264336d437b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c907105810000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table/>
+<target_name/>
+<type>Decision Condition</type>
+<update_domain>global</update_domain>
+<update_guid>c65429090b53315017b736ee070dc520</update_guid>
+<update_guid_history>c65429090b53315017b736ee070dc520:1436035187</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_metadata_link_da54e9c547533150abc2d264336d4301</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;&lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;&lt;directory&gt;update&lt;/directory&gt;&lt;documentkey&gt;d254a9c547533150abc2d264336d43ff&lt;/documentkey&gt;&lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_decision_question"&gt;
+    &lt;sys_decision_question action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;answer&gt;0254290947533150abc2d264336d4327&lt;/answer&gt;
+        &lt;condition table="var__m_sys_decision_input_6fa365c547533150abc2d264336d4386"&gt;u_typeLIKEsingle_score^EQ&lt;item endquery="false" field="u_type" goto="false" newquery="false" operator="LIKE" or="false" value="single_score"/&gt;
+            &lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;
+        &lt;/condition&gt;
+        &lt;decision_table display_value="Platform Analytics Reporting Output"&gt;6fa365c547533150abc2d264336d4386&lt;/decision_table&gt;
+        &lt;default_answer&gt;false&lt;/default_answer&gt;
+        &lt;input_table&gt;var__m_sys_decision_input_6fa365c547533150abc2d264336d4386&lt;/input_table&gt;
+        &lt;label&gt;Platform Analytics Reporting Output_100&lt;/label&gt;
+        &lt;marked_for_deletion&gt;false&lt;/marked_for_deletion&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_decision_question&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;mura&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-12-22 07:32:56&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;d254a9c547533150abc2d264336d43ff&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Platform Analytics Reporting Output_100&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_decision_question_d254a9c547533150abc2d264336d43ff&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;mura&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-12-22 07:32:56&lt;/sys_updated_on&gt;
+    &lt;/sys_decision_question&gt;
+&lt;/record_update&gt;
+]]&gt;&lt;/payload&gt;&lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mura&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-22 07:32:56&lt;/sys_created_on&gt;&lt;sys_id&gt;da54e9c547533150abc2d264336d4301&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Platform Analytics Reporting Output_100&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_metadata_link_da54e9c547533150abc2d264336d4301&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mura&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-22 07:32:56&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_decision_question&lt;/tablename&gt;&lt;/sys_metadata_link&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2004823607</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>809da10947933150abc2d264336d43f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c90710bda0000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table/>
+<target_name>Platform Analytics Reporting Output_100</target_name>
+<type>Metadata Snapshot</type>
+<update_domain>global</update_domain>
+<update_guid>92542909a853315065659df41808a93a</update_guid>
+<update_guid_history>92542909a853315065659df41808a93a:2004823607</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_decision_multi_result_element_7954e50947533150abc2d264336d43d7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_decision_multi_result_element"&gt;&lt;sys_decision_multi_result_element action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_jsonobject&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;string_full_utf8&lt;/internal_type&gt;&lt;label&gt;jsonobject&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Platform Analytics Reporting Output"&gt;6fa365c547533150abc2d264336d4386&lt;/model&gt;&lt;model_id&gt;6fa365c547533150abc2d264336d4386&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sys_decision_multi_result_element_6fa365c547533150abc2d264336d4386&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;200&lt;/order&gt;&lt;parent/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_decision_multi_result_element&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mura&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-22 07:32:54&lt;/sys_created_on&gt;&lt;sys_id&gt;7954e50947533150abc2d264336d43d7&lt;/sys_id&gt;&lt;sys_name&gt;jsonobject&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_decision_multi_result_element_7954e50947533150abc2d264336d43d7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mura&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-22 07:32:54&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_decision_multi_result_element&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1748216054</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>849d650d47533150abc2d264336d437c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c907103d60000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table/>
+<target_name>jsonobject</target_name>
+<type>Result</type>
+<update_domain>global</update_domain>
+<update_guid>7d54e509855331501844d0563ef744e5</update_guid>
+<update_guid_history>7d54e509855331501844d0563ef744e5:-1748216054,7554e50963533150cc0a5d71977800e2:-1723407938,7954e5095c533150c02b33ea442f0ede:-1748216054</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_var__m_sys_decision_input_6fa365c547533150abc2d264336d4386_u_type_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_type" label="type" language="en" table="var__m_sys_decision_input_6fa365c547533150abc2d264336d4386"><sys_documentation action="INSERT_OR_UPDATE"><element>u_type</element><help/><hint/><label>type</label><language>en</language><name>var__m_sys_decision_input_6fa365c547533150abc2d264336d4386</name><plural>type</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>mura</sys_created_by><sys_created_on>2023-12-22 07:32:54</sys_created_on><sys_id>ed54e50947533150abc2d264336d43b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_var__m_sys_decision_input_6fa365c547533150abc2d264336d4386_u_type_en</sys_update_name><sys_updated_by>mura</sys_updated_by><sys_updated_on>2023-12-22 07:32:54</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1771155910</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>849da10947933150abc2d264336d43f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c9071021a0000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table>var__m_sys_decision_input_6fa365c547533150abc2d264336d4386</table>
+<target_name>null.type</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3954e50936533150a566f51b9b56afc4</update_guid>
+<update_guid_history>3954e50936533150a566f51b9b56afc4:1771155910,b554e509cc533150dd80723238f6abc0:1771155910</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_decision_6fa365c547533150abc2d264336d4386</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision"><sys_decision action="INSERT_OR_UPDATE"><access>public</access><active>true</active><answer_table>sys_decision_multi_result</answer_table><answer_type>reference</answer_type><delta/><description/><enable_publishing>false</enable_publishing><label/><name>Platform Analytics Reporting Output</name><reference_qualifier/><status/><sys_class_name>sys_decision</sys_class_name><sys_created_by>mura</sys_created_by><sys_created_on>2023-12-22 07:30:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6fa365c547533150abc2d264336d4386</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Platform Analytics Reporting Output</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_decision_6fa365c547533150abc2d264336d4386</sys_update_name><sys_updated_by>mura</sys_updated_by><sys_updated_on>2023-12-22 07:30:03</sys_updated_on></sys_decision></record_update>]]></payload>
+<payload_hash>366261371</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>889d650d47533150abc2d264336d437b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c906e66940000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table/>
+<target_name>Platform Analytics Reporting Output</target_name>
+<type>Decision Table</type>
+<update_domain>global</update_domain>
+<update_guid>c0b365c5f6533150c85337141506898b</update_guid>
+<update_guid_history>c0b365c5f6533150c85337141506898b:366261371</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_decision_multi_result_4e54290947533150abc2d264336d4322</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result"><sys_decision_multi_result action="INSERT_OR_UPDATE"><decision_table display_value="Platform Analytics Reporting Output">6fa365c547533150abc2d264336d4386</decision_table><label>json: Not supported report/Indicator type, jsonobject: Not supported report/Indicator type</label><result_elements/><sys_class_name>sys_decision_multi_result</sys_class_name><sys_created_by>mura</sys_created_by><sys_created_on>2023-12-22 07:32:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4e54290947533150abc2d264336d4322</sys_id><sys_mod_count>0</sys_mod_count><sys_name>json: Not supported report/Indicator type, jsonobject: Not supported report/Indicator type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_decision_multi_result_4e54290947533150abc2d264336d4322</sys_update_name><sys_updated_by>mura</sys_updated_by><sys_updated_on>2023-12-22 07:32:55</sys_updated_on></sys_decision_multi_result><sys_variable_value action="delete_multiple" query="document_key=4e54290947533150abc2d264336d4322"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>4e54290947533150abc2d264336d4322</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>mura</sys_created_by><sys_created_on>2023-12-22 07:32:55</sys_created_on><sys_id>4e54290947533150abc2d264336d4323</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>mura</sys_updated_by><sys_updated_on>2023-12-22 07:32:55</sys_updated_on><value>Not supported report/Indicator type</value><variable display_value="json">b554e50947533150abc2d264336d43c5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>4e54290947533150abc2d264336d4322</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>mura</sys_created_by><sys_created_on>2023-12-22 07:32:55</sys_created_on><sys_id>8654290947533150abc2d264336d4324</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>mura</sys_updated_by><sys_updated_on>2023-12-22 07:32:55</sys_updated_on><value>Not supported report/Indicator type</value><variable display_value="jsonobject">7954e50947533150abc2d264336d43d7</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-1545121448</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>c09d650d47533150abc2d264336d437c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c907105cf0000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table/>
+<target_name>json: Not supported report/Indicator type, jsonobject: Not supported report/Indicator type</target_name>
+<type>Decision Table Multiple Result</type>
+<update_domain>global</update_domain>
+<update_guid>ca5429090d533150e240fcbb1b9beb25</update_guid>
+<update_guid_history>ca5429090d533150e240fcbb1b9beb25:-1545121448</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_decision_question_d254a9c547533150abc2d264336d43ff</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question"><sys_decision_question action="INSERT_OR_UPDATE"><active>true</active><answer>0254290947533150abc2d264336d4327</answer><condition table="var__m_sys_decision_input_6fa365c547533150abc2d264336d4386">u_typeLIKEsingle_score^EQ<item endquery="false" field="u_type" goto="false" newquery="false" operator="LIKE" or="false" value="single_score"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_table display_value="Platform Analytics Reporting Output">6fa365c547533150abc2d264336d4386</decision_table><default_answer>false</default_answer><input_table>var__m_sys_decision_input_6fa365c547533150abc2d264336d4386</input_table><label>Platform Analytics Reporting Output_100</label><marked_for_deletion>false</marked_for_deletion><order>100</order><sys_class_name>sys_decision_question</sys_class_name><sys_created_by>mura</sys_created_by><sys_created_on>2023-12-22 07:32:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d254a9c547533150abc2d264336d43ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Platform Analytics Reporting Output_100</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_decision_question_d254a9c547533150abc2d264336d43ff</sys_update_name><sys_updated_by>mura</sys_updated_by><sys_updated_on>2023-12-22 07:32:56</sys_updated_on></sys_decision_question></record_update>]]></payload>
+<payload_hash>-544103632</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>cc9d650d47533150abc2d264336d437c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c90710bee0000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table/>
+<target_name>Platform Analytics Reporting Output_100</target_name>
+<type>Decision</type>
+<update_domain>global</update_domain>
+<update_guid>da5429090353315054e85efe5ac67f3b</update_guid>
+<update_guid_history>da5429090353315054e85efe5ac67f3b:-544103632</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_metadata_link_1254290947533150abc2d264336d433e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;&lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;&lt;directory&gt;update&lt;/directory&gt;&lt;documentkey&gt;1654290947533150abc2d264336d433d&lt;/documentkey&gt;&lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_decision_question"&gt;
+    &lt;sys_decision_question action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;answer&gt;4e54290947533150abc2d264336d4322&lt;/answer&gt;
+        &lt;condition/&gt;
+        &lt;decision_table display_value="Platform Analytics Reporting Output"&gt;6fa365c547533150abc2d264336d4386&lt;/decision_table&gt;
+        &lt;default_answer&gt;true&lt;/default_answer&gt;
+        &lt;input_table&gt;var__m_sys_decision_input_6fa365c547533150abc2d264336d4386&lt;/input_table&gt;
+        &lt;label&gt;Platform Analytics Reporting Output default result&lt;/label&gt;
+        &lt;marked_for_deletion&gt;false&lt;/marked_for_deletion&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_decision_question&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;mura&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-12-22 07:32:56&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;1654290947533150abc2d264336d433d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Platform Analytics Reporting Output default result&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_decision_question_1654290947533150abc2d264336d433d&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;mura&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-12-22 07:32:56&lt;/sys_updated_on&gt;
+    &lt;/sys_decision_question&gt;
+&lt;/record_update&gt;
+]]&gt;&lt;/payload&gt;&lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mura&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-22 07:32:56&lt;/sys_created_on&gt;&lt;sys_id&gt;1254290947533150abc2d264336d433e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Platform Analytics Reporting Output default result&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_metadata_link_1254290947533150abc2d264336d433e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mura&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-22 07:32:56&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_decision_question&lt;/tablename&gt;&lt;/sys_metadata_link&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-419626723</payload_hash>
+<remote_update_set display_value="Platform Analytics Board converter">cc9d650d47533150abc2d264336d437a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mura</sys_created_by>
+<sys_created_on>2023-12-22 08:13:12</sys_created_on>
+<sys_id>cc9da10947933150abc2d264336d43f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18c90710c1b0000001</sys_recorded_at>
+<sys_updated_by>mura</sys_updated_by>
+<sys_updated_on>2023-12-22 08:13:12</sys_updated_on>
+<table/>
+<target_name>Platform Analytics Reporting Output default result</target_name>
+<type>Metadata Snapshot</type>
+<update_domain>global</update_domain>
+<update_guid>5e542909ef533150334c41a17788253e</update_guid>
+<update_guid_history>5e542909ef533150334c41a17788253e:-419626723</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
