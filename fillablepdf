@@ -1,0 +1,28 @@
+var pdfInit = new sn_pdfgeneratorutils.PDFGenerationAPI;
+var fillablePdfSysid = "165c17ca4717b550abc2d264336d43f6"; // sysid of the fillable pdf
+
+var whichTabletoAttach = 'incident'; // record to attach the pdf 
+var recordSysId = 'f12ca184735123002728660c4cf6a7ef';
+var fileName = 'my filled document' // name of the doc
+
+// pass the sysid of the fillable pdf doc
+var isFillable = pdfInit.isDocumentFillable(fillablePdfSysid);
+
+if(isFillable){ // if true
+
+    // get the doc fields and its type
+    var getFieldType = pdfInit.getDocumentFieldsType(fillablePdfSysid);
+    gs.print(Object.keys(getFieldType.fields_type));
+    var json = new GlideJsonPath(JSON.stringify(getFieldType)); 
+    var fieldType = json.read("$..type");
+    gs.print(fieldType);
+
+   
+    // fill the fields
+    var fieldMap = new Object();
+    fieldMap["text_1nekt"] = "State value here";
+    
+    
+    var fillField = pdfInit.fillDocumentFields(fieldMap, fillablePdfSysid, whichTabletoAttach, recordSysId, fileName)
+    gs.print(JSON.stringify(fillField));
+}
